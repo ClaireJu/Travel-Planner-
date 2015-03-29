@@ -7,12 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E3B68051AAA5FBD00FA2BB6 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3B68031AAA5FBD00FA2BB6 /* 01.jpg */; };
+		7E3B68061AAA5FBD00FA2BB6 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3B68041AAA5FBD00FA2BB6 /* 02.jpg */; };
+		7E3B680A1AAA617900FA2BB6 /* MyPlansCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B68091AAA617900FA2BB6 /* MyPlansCollectionViewCell.swift */; };
+		7E3B680C1AAA619700FA2BB6 /* MyPlansCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B680B1AAA619700FA2BB6 /* MyPlansCollectionViewController.swift */; };
+		7E452A0D1AAC083700D7AA9A /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E452A0C1AAC083700D7AA9A /* ImageViewController.swift */; };
+		7E4B58831AAB8ADB00B6C2AD /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B58821AAB8ADB00B6C2AD /* DetailTableViewController.swift */; };
+		7E4B58851AAB8AEA00B6C2AD /* TextDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B58841AAB8AEA00B6C2AD /* TextDetailTableViewCell.swift */; };
+		7E4B58871AAB8AF800B6C2AD /* ImageDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B58861AAB8AF800B6C2AD /* ImageDetailTableViewCell.swift */; };
+		7E56D3241AB3787B00835EE1 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E56D3211AB3787B00835EE1 /* 6.png */; };
+		7E56D3271AB3883100835EE1 /* ExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E56D3261AB3883100835EE1 /* ExpenseViewController.swift */; };
+		7E56D3291AB388A800835EE1 /* BezierPathsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E56D3281AB388A800835EE1 /* BezierPathsView.swift */; };
+		7E6D899A1AAD7626007D8774 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6D89991AAD7626007D8774 /* ShowViewController.swift */; };
+		7E6D899C1AAD7F7B007D8774 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D899B1AAD7F7B007D8774 /* 03.jpg */; };
+		7E6D899E1AAD8744007D8774 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6D899D1AAD8744007D8774 /* ViewController.swift */; };
+		7E6D89A01AAD87A3007D8774 /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6D899F1AAD87A3007D8774 /* PageContentViewController.swift */; };
+		7E7F47991AAC30B70018ED98 /* ScenerySpotTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F47981AAC30B70018ED98 /* ScenerySpotTableViewController.swift */; };
+		7E7F479B1AAC30F70018ED98 /* SpotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F479A1AAC30F70018ED98 /* SpotTableViewCell.swift */; };
 		7EB521A11AA9196D00331087 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB521A01AA9196D00331087 /* AppDelegate.swift */; };
-		7EB521A31AA9196D00331087 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB521A21AA9196D00331087 /* ViewController.swift */; };
 		7EB521A61AA9196D00331087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB521A41AA9196D00331087 /* Main.storyboard */; };
 		7EB521A81AA9196D00331087 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB521A71AA9196D00331087 /* Images.xcassets */; };
 		7EB521AB1AA9196D00331087 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EB521A91AA9196D00331087 /* LaunchScreen.xib */; };
 		7EB521B71AA9196E00331087 /* TravelPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB521B61AA9196E00331087 /* TravelPlannerTests.swift */; };
+		7EC6C1D21AABB53E001967DB /* GPXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6C1D11AABB53E001967DB /* GPXViewController.swift */; };
+		7EC922C71AB20C2F009C8061 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC922C61AB20C2F009C8061 /* SettingsTableViewController.swift */; };
+		7EF6145B1AA9439A00433856 /* DatePickerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6145A1AA9439A00433856 /* DatePickerTableViewController.swift */; };
+		7EF6145D1AA955EA00433856 /* PlanningTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6145C1AA955EA00433856 /* PlanningTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +46,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E3B68031AAA5FBD00FA2BB6 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		7E3B68041AAA5FBD00FA2BB6 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		7E3B68091AAA617900FA2BB6 /* MyPlansCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyPlansCollectionViewCell.swift; path = ../MyPlansCollectionViewCell.swift; sourceTree = "<group>"; };
+		7E3B680B1AAA619700FA2BB6 /* MyPlansCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyPlansCollectionViewController.swift; path = ../MyPlansCollectionViewController.swift; sourceTree = "<group>"; };
+		7E452A0C1AAC083700D7AA9A /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = ../ImageViewController.swift; sourceTree = "<group>"; };
+		7E4B58821AAB8ADB00B6C2AD /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailTableViewController.swift; path = ../DetailTableViewController.swift; sourceTree = "<group>"; };
+		7E4B58841AAB8AEA00B6C2AD /* TextDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextDetailTableViewCell.swift; path = ../TextDetailTableViewCell.swift; sourceTree = "<group>"; };
+		7E4B58861AAB8AF800B6C2AD /* ImageDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageDetailTableViewCell.swift; path = ../ImageDetailTableViewCell.swift; sourceTree = "<group>"; };
+		7E56D3211AB3787B00835EE1 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		7E56D3261AB3883100835EE1 /* ExpenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseViewController.swift; sourceTree = "<group>"; };
+		7E56D3281AB388A800835EE1 /* BezierPathsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierPathsView.swift; sourceTree = "<group>"; };
+		7E6D89991AAD7626007D8774 /* ShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShowViewController.swift; path = ../ShowViewController.swift; sourceTree = "<group>"; };
+		7E6D899B1AAD7F7B007D8774 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
+		7E6D899D1AAD8744007D8774 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E6D899F1AAD87A3007D8774 /* PageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
+		7E7F47981AAC30B70018ED98 /* ScenerySpotTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScenerySpotTableViewController.swift; path = ../ScenerySpotTableViewController.swift; sourceTree = "<group>"; };
+		7E7F479A1AAC30F70018ED98 /* SpotTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpotTableViewCell.swift; path = ../SpotTableViewCell.swift; sourceTree = "<group>"; };
 		7EB5219B1AA9196D00331087 /* TravelPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB5219F1AA9196D00331087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EB521A01AA9196D00331087 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7EB521A21AA9196D00331087 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7EB521A51AA9196D00331087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EB521A71AA9196D00331087 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7EB521AA1AA9196D00331087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7EB521B01AA9196E00331087 /* TravelPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB521B51AA9196E00331087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EB521B61AA9196E00331087 /* TravelPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelPlannerTests.swift; sourceTree = "<group>"; };
+		7EC6C1D11AABB53E001967DB /* GPXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPXViewController.swift; sourceTree = "<group>"; };
+		7EC922C61AB20C2F009C8061 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		7EF6145A1AA9439A00433856 /* DatePickerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatePickerTableViewController.swift; path = ../DatePickerTableViewController.swift; sourceTree = "<group>"; };
+		7EF6145C1AA955EA00433856 /* PlanningTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlanningTableViewController.swift; path = ../PlanningTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E3B68021AAA5FBD00FA2BB6 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				7E56D3211AB3787B00835EE1 /* 6.png */,
+				7E6D899B1AAD7F7B007D8774 /* 03.jpg */,
+				7E3B68031AAA5FBD00FA2BB6 /* 01.jpg */,
+				7E3B68041AAA5FBD00FA2BB6 /* 02.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		7EB521921AA9196D00331087 = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +128,24 @@
 		7EB5219D1AA9196D00331087 /* TravelPlanner */ = {
 			isa = PBXGroup;
 			children = (
-				7EB521A01AA9196D00331087 /* AppDelegate.swift */,
-				7EB521A21AA9196D00331087 /* ViewController.swift */,
+				7E6D899D1AAD8744007D8774 /* ViewController.swift */,
+				7E6D899F1AAD87A3007D8774 /* PageContentViewController.swift */,
+				7E452A0C1AAC083700D7AA9A /* ImageViewController.swift */,
+				7EC6C1D11AABB53E001967DB /* GPXViewController.swift */,
+				7E7F47981AAC30B70018ED98 /* ScenerySpotTableViewController.swift */,
+				7E6D89991AAD7626007D8774 /* ShowViewController.swift */,
+				7E7F479A1AAC30F70018ED98 /* SpotTableViewCell.swift */,
+				7E4B58821AAB8ADB00B6C2AD /* DetailTableViewController.swift */,
+				7E4B58841AAB8AEA00B6C2AD /* TextDetailTableViewCell.swift */,
+				7E4B58861AAB8AF800B6C2AD /* ImageDetailTableViewCell.swift */,
+				7E3B680B1AAA619700FA2BB6 /* MyPlansCollectionViewController.swift */,
+				7E3B68091AAA617900FA2BB6 /* MyPlansCollectionViewCell.swift */,
+				7EF6145C1AA955EA00433856 /* PlanningTableViewController.swift */,
+				7EF6145A1AA9439A00433856 /* DatePickerTableViewController.swift */,
 				7EB521A41AA9196D00331087 /* Main.storyboard */,
-				7EB521A71AA9196D00331087 /* Images.xcassets */,
-				7EB521A91AA9196D00331087 /* LaunchScreen.xib */,
+				7E56D3261AB3883100835EE1 /* ExpenseViewController.swift */,
+				7E56D3281AB388A800835EE1 /* BezierPathsView.swift */,
+				7EC922C61AB20C2F009C8061 /* SettingsTableViewController.swift */,
 				7EB5219E1AA9196D00331087 /* Supporting Files */,
 			);
 			path = TravelPlanner;
@@ -90,6 +154,10 @@
 		7EB5219E1AA9196D00331087 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7E3B68021AAA5FBD00FA2BB6 /* image */,
+				7EB521A71AA9196D00331087 /* Images.xcassets */,
+				7EB521A91AA9196D00331087 /* LaunchScreen.xib */,
+				7EB521A01AA9196D00331087 /* AppDelegate.swift */,
 				7EB5219F1AA9196D00331087 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -161,6 +229,7 @@
 				TargetAttributes = {
 					7EB5219A1AA9196D00331087 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = FUTU96J3U9;
 					};
 					7EB521AF1AA9196E00331087 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -192,8 +261,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E6D899C1AAD7F7B007D8774 /* 03.jpg in Resources */,
+				7E3B68061AAA5FBD00FA2BB6 /* 02.jpg in Resources */,
 				7EB521A61AA9196D00331087 /* Main.storyboard in Resources */,
 				7EB521AB1AA9196D00331087 /* LaunchScreen.xib in Resources */,
+				7E3B68051AAA5FBD00FA2BB6 /* 01.jpg in Resources */,
+				7E56D3241AB3787B00835EE1 /* 6.png in Resources */,
 				7EB521A81AA9196D00331087 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +285,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EB521A31AA9196D00331087 /* ViewController.swift in Sources */,
+				7E4B58831AAB8ADB00B6C2AD /* DetailTableViewController.swift in Sources */,
+				7E6D899A1AAD7626007D8774 /* ShowViewController.swift in Sources */,
+				7E56D3271AB3883100835EE1 /* ExpenseViewController.swift in Sources */,
+				7E7F47991AAC30B70018ED98 /* ScenerySpotTableViewController.swift in Sources */,
 				7EB521A11AA9196D00331087 /* AppDelegate.swift in Sources */,
+				7E6D899E1AAD8744007D8774 /* ViewController.swift in Sources */,
+				7E7F479B1AAC30F70018ED98 /* SpotTableViewCell.swift in Sources */,
+				7E452A0D1AAC083700D7AA9A /* ImageViewController.swift in Sources */,
+				7EC6C1D21AABB53E001967DB /* GPXViewController.swift in Sources */,
+				7E4B58871AAB8AF800B6C2AD /* ImageDetailTableViewCell.swift in Sources */,
+				7E4B58851AAB8AEA00B6C2AD /* TextDetailTableViewCell.swift in Sources */,
+				7EF6145D1AA955EA00433856 /* PlanningTableViewController.swift in Sources */,
+				7E56D3291AB388A800835EE1 /* BezierPathsView.swift in Sources */,
+				7E3B680C1AAA619700FA2BB6 /* MyPlansCollectionViewController.swift in Sources */,
+				7EC922C71AB20C2F009C8061 /* SettingsTableViewController.swift in Sources */,
+				7E6D89A01AAD87A3007D8774 /* PageContentViewController.swift in Sources */,
+				7EF6145B1AA9439A00433856 /* DatePickerTableViewController.swift in Sources */,
+				7E3B680A1AAA617900FA2BB6 /* MyPlansCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,9 +427,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TravelPlanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -348,9 +440,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TravelPlanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -407,6 +502,7 @@
 				7EB521BC1AA9196E00331087 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EB521BD1AA9196E00331087 /* Build configuration list for PBXNativeTarget "TravelPlannerTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +511,7 @@
 				7EB521BF1AA9196E00331087 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
